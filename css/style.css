@@ -16,9 +16,8 @@ a {
 
 header {
     position: fixed;
-    right: 0;
-    top: 0;
-    margin: 20px 20px;
+    right: 40px;
+    top: 40px;
     z-index: 1;
 }
 
@@ -31,31 +30,41 @@ button {
     background-color: white;
 }
 
-
-
 /* Main backgrounds */
 
-section {
-    position: relative;
+
+h1 {
+    width: 680px;
+    font-size: 45px;
+    text-align: center;
 }
+
+#product-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* BG */
 
 #red-bg {
     background-color: red;
     color: yellow;
     height: 100vh;
+    position: relative;
 }
 
-
-h1 {
-    width: 533px;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 35px;
+#green-bg {
+    background-color: green;
+    color: yellow;
+    height: 100vh;
+    position: relative;
 }
 
-.product-container {
-    display: absolute;
-    right: 50%;
-    bottom: 50%; 
-    transform: translate(-50%, -50%);
+#yellow-bg {
+    background-color: yellow;
+    color: green;
+    height: 100vh;
+    position: relative;
 }
